@@ -8,7 +8,7 @@
 
 ### App Walk-though
 
-<img src="https://github.com/saravann2017/lab1/blob/master/lab1.gif" width=200><br>
+<img src="https://github.com/saravann2017/Lab-1/blob/master/lab1.gif" width=200><br>
 
 ## Required
 - [X] Create New Project in Android Studio
