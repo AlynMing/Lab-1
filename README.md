@@ -1,15 +1,14 @@
-## NAME_OF_YOUR_APP_HERE
+## Lab1
 
 📝 `NOTE:` Paste the README templates for each subsequent lab here at the top, (i.e. lab 2, 3, 4). This will show a history of your development process including which users tories you completed and how your app looked and functioned at each step.
 
 ## Lab 1
 
-### App Description
-`TODO://` Add app description
+### App Description - basic flashcard app with 1 question/answer
 
 ### App Walk-though
 
-<img src="file:///C:/Users/sarav/Documents/College/Spring%20'20/lab1.gif" width=200><br>
+<img src="https://github.com/saravann2017/lab1/blob/master/lab1.gif" width=200><br>
 
 ## Required
 - [X] Create New Project in Android Studio
