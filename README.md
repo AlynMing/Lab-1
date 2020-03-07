@@ -2,19 +2,18 @@
 
 ## Lab 2
 
-### App Description
-`TODO://` Add app description
+### App Description - Simple flashcard app with capability to edit the question and answer
 
 ### App Walk-though
 
-<img src="" width=200><br>
+<img src="https://github.com/saravann2017/Lab-1/blob/master/lab2.gif" width=200><br>
 
 ## Required
 - [X] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
 - [X] The 'Add Card Screen' has a cancel button to take the user back to the main screen
 - [X] User can enter and submit a Question and Answer through the 'Add Card Screen'
 - [X] User will see the card they just created on the main screen when they press the 'Save Button'
-- [ ] Push your progress to GitHub!
+- [X] Push your progress to GitHub!
 
 ## Optional
 - [X] User can edit a card
