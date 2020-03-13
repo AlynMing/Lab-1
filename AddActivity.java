@@ -34,12 +34,18 @@ public class AddActivity extends AppCompatActivity {
         findViewById(R.id.saveButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String oldq = getIntent().getStringExtra("oldq");
+                String olda = getIntent().getStringExtra("olda");
                 String qstr = ((EditText) findViewById(R.id.newQuestion)).getText().toString();
                 String astr = ((EditText) findViewById(R.id.newAnswer)).getText().toString();
                 if (qstr.compareTo("")!=0 && astr.compareTo("")!=0) {
                     Intent data = new Intent();
                     data.putExtra("newQuestion", qstr);
                     data.putExtra("newAnswer", astr);
+                    if (!oldq.isEmpty() && !olda.isEmpty()) {
+                        data.putExtra("oldq",oldq);
+                        data.putExtra("olda",olda);
+                    }
                     setResult(RESULT_OK, data);
                     finish();
                 }
