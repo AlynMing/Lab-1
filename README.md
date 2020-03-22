@@ -54,7 +54,7 @@
 - [X] An error message is shown if the user doesn't enter both a Question and an Answer
 - [X] A notification is shown if the card was created successfully
 - [ ] User can also enter multiple choice answers when creating a card
-- [ ] App is further styled and customized!
+- [X] App is further styled and customized!
 
 ## Lab 1
 
@@ -75,4 +75,4 @@
 - [X] Style the question and answer side of the card to better distinguish between the two sides
 - [ ] Add selectable multiple choice answers beneath the card
    - [ ] Change the background color of the multiple choice answers when clicked to indicate whether the question waanswered correctly
-- [ ] Further customize and style the card
+- [X] Further customize and style the card
