@@ -11,9 +11,9 @@
 - [X] User sees flashcards animating in / out when the 'next' button is tapped
 
 ## Optional
-- [ ] Extra styling is added!
+- [X] Extra styling is added!
 - [ ] User sees a countdown timer for each question
-- [ ] User sees a 'card flip' animation when the card is tapped
+- [X] User sees a 'card flip' animation when the card is tapped
 - [ ] User sees a celebration animation with confetti when they answer a question correctly
 
 ## Lab 3
@@ -52,7 +52,7 @@
 ## Optional
 - [X] User can edit a card
 - [X] An error message is shown if the user doesn't enter both a Question and an Answer
-- [ ] A notification is shown if the card was created successfully
+- [X] A notification is shown if the card was created successfully
 - [ ] User can also enter multiple choice answers when creating a card
 - [ ] App is further styled and customized!
 
