@@ -12,8 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="2dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:tint="#8C65D3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/save_card_foreground" />
@@ -24,8 +25,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:tint="#8C65D3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/cancel_card_foreground" />
@@ -37,11 +39,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="99dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
         android:ems="10"
-        android:inputType="textMultiLine"
-        android:hint="@string/qpromt"/>
+        android:hint="@string/qpromt"
+        android:inputType="textMultiLine" />
 
     <EditText
         android:id="@+id/newAnswer"
@@ -50,9 +53,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="0dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="244dp"
+        android:layout_marginRight="10dp"
         android:ems="10"
-        android:inputType="textMultiLine"
-        android:hint="@string/apromt" />
+        android:hint="@string/apromt"
+        android:inputType="textMultiLine" />
 </RelativeLayout>

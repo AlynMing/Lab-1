@@ -8,76 +8,90 @@
 
     <TextView
         android:id="@+id/flash_question"
+        android:background = "@drawable/card_background"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_alignParentStart="true"
+        android:layout_centerVertical="false"
         android:layout_marginTop="35dp"
-        android:background="#03A9F4"
+        android:backgroundTint="#0052A5"
         android:fontFamily="monospace"
-        android:lineSpacingExtra="18sp"
+        android:gravity="center"
         android:text="@string/emptyQ"
+        android:textColor="#00ADCE"
         android:textAlignment="center"
         android:textSize="40sp"
-        android:visibility="visible" />
+        android:visibility="visible"
+        android:elevation="5dp" />
 
     <TextView
         android:id="@+id/flash_answer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="35dp"
-        android:background="#56E75B"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/card_background"
+        android:backgroundTint="#00C590"
+        android:elevation="5dp"
         android:fontFamily="monospace"
-        android:lineSpacingExtra="18sp"
+        android:gravity="center"
         android:text="@string/emptyA"
         android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#004159"
         android:textSize="40sp"
         android:visibility="invisible" />
 
     <ImageView
         android:id="@+id/addButton"
-        android:contentDescription="add card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="add card"
+        android:tint="#8C65D3"
         app:srcCompat="@drawable/add_card_foreground" />
 
     <ImageView
         android:id="@+id/editButton"
-        android:contentDescription="edit card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#8C65D3"
+        android:contentDescription="edit card"
+        android:tint="#8C65D3"
         app:srcCompat="@drawable/edit_card_foreground" />
 
     <ImageView
         android:id="@+id/delete"
-        android:contentDescription="delete card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="13dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginBottom="249dp"
+        android:contentDescription="delete card"
+        android:tint="#8C65D3"
         app:srcCompat="@drawable/delete_foreground" />
 
     <ImageView
         android:id="@+id/next"
-        android:contentDescription="next card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginEnd="12dp"
+        android:layout_marginRight="10dp"
         android:layout_marginBottom="245dp"
+        android:contentDescription="next card"
+        android:tint="#8C65D3"
         app:srcCompat="@drawable/next_foreground" />
 
 </RelativeLayout>
