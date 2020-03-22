@@ -28,6 +28,7 @@ public class AddActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
+                overridePendingTransition(R.anim.right_in,R.anim.left_in);
             }
         });
 
@@ -48,6 +49,7 @@ public class AddActivity extends AppCompatActivity {
                     }
                     setResult(RESULT_OK, data);
                     finish();
+                    overridePendingTransition(R.anim.right_in,R.anim.left_in);
                 }
                 else {
                     Toast bread = Toast.makeText(getApplicationContext(), "Field empty. Fill both.", Toast.LENGTH_SHORT);
