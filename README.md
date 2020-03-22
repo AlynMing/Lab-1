@@ -3,7 +3,7 @@
 ### App Description - flashcard app with animations
 
 ### App Walk-though
-<img src="" width=200><br>
+<img src="https://github.com/saravann2017/Lab-1/blob/master/lab4.gif" width=200><br>
 
 ## Required
 - [X] User sees a transition animation when going from the main screen to the add card screen.
